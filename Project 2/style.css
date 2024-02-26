@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Gilroy-Black;
+    src: url(font/Gilroy-Black.woff);
+ }
+ 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gilroy-Black;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1vw 2vw;
+}
+
+#nav h3{
+    
+    background-color: black;
+    color: white;
+    padding: 0.5vw 1vw;
+    font-size: 1vw;
+    margin-left: 1vw;
+    border-radius: 2vw;
+}
+
+#intro{
+    height:40%;
+    width: 100%;
+    
+    padding: 3vw;
+}
+
+#intro h1{
+    font-size: 5vw;
+    line-height: 5.2vw;
+    letter-spacing: 1px;
+}
+
+#intro h3{
+    padding-top: 1vw;
+    font-size: 1.2vw;
+}
+
+#place{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#place>h4{
+    font-size: 1vw;
+}
+
+#image{
+    background-color: orange;
+    height: 87%;
+    width: 100%;
+    background-size: cover;
+}
+
+#about{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+#about>h2{
+    
+    width: 60%;
+    font-size: 3vw;
+    height: 100%;
+    font-weight: 100;
+}
+
+
+#about2{
+    font-size: 2vw;
+    margin-top:12px ;
+    width: 35%;
+    height: 100%;
+    border-left: 2px solid black;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+#icons i{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1vw;
+    border-radius: 50px;
+    margin-right: 10px;
+    
+}
+
+#work{
+    height: 45%;
+    width: 100%;
+    padding: 20px;
+    border-top: 2px solid black;
+    display: flex;
+    padding: 20px;
+    
+}
+
+#work1{
+    width: 30%;
+    
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-right: 2px solid black;
+    padding-right: 50px;
+}
+
+#work2{
+    height: 100%;
+    width: 70%;
+    padding: 0px 60px;
+
+}
+
+.work2part{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    
+    
+}
+
+.work2part:nth-child(1){
+    
+    border-bottom:2px solid black ;
+   
+   
+}
+
+.work2part .elem{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+.work2part .elem:nth-child(1){
+    border-right:2px solid black;
+}
+
+.work2part .elem:nth-child(1){
+    padding-left: 30px;
+}
